@@ -1,45 +1,86 @@
-## Data Portfolio – Rohit Dodti
+# Data Analytics Portfolio — Rohit Dodti
 
-Hi, I’m Rohit Dodti, a Data Analyst with a strong interest in transforming raw data into meaningful insights.  
-This repository showcases my work in SQL, Power BI, Python, and Data Engineering.  
-It includes hands-on projects that demonstrate data cleaning, analysis, visualization, and automation skills.
+A collection of SQL analysis projects and Power BI dashboard work.
 
-## About Me
-
-- 4+ years of experience in data analysis and reporting  
-- Skilled in data extraction, transformation, and visualization  
-- Experienced with SQL, Power BI, Python, and Excel  
-- Currently exploring PySpark and Snowflake to move into Data Engineering  
-- Passionate about data storytelling and process optimization
+This repository demonstrates data cleaning, exploratory analysis,
+SQL window functions and dashboard presentation.
 
 ## SQL Projects
 
-| Project | Description | Tools | Link |
-|----------|--------------|--------|------|
-| Sales Analysis using SQL | Performed sales performance analysis by region and product using joins and window functions. | MySQL |
-| Customer Retention Study | Identified customer churn patterns using analytical SQL queries. |
+### Layoffs Data Cleaning
 
+SQL practice covering:
 
-## Power BI Dashboards
+- Creating staging tables
+- Identifying duplicates using ROW_NUMBER()
+- Standardizing industry and country values
+- Handling missing industry information
+- Converting text dates into date values
+- Reviewing records with missing layoff measures
 
-| Dashboard | Description | Link |
-|------------|--------------|------|
-| Retail Sales Dashboard | Designed an interactive dashboard to visualize KPIs such as sales growth, profit, and regional performance. | |
-| HR Analytics Dashboard | Created HR insights focusing on employee attrition, diversity, and department trends. |  |
+[View SQL script](SQL_Projects/Data%20cleaning%20project/data_cleaning.sql)
 
-## Skills and Tools
+### Layoffs Exploratory Analysis
 
-**Languages:** SQL, Python, R  
-**Databases:** MySQL, , Snowflake  
-**Business Intelligence:** Power BI, Excel  
-**Big Data Tools:** Apache Spark, Databricks  
-**Version Control:** SVN, GitHub  
-**Other Areas:** ETL, Data Modeling, Dashboard Design
+Queries exploring:
 
+- Total layoffs by company, country and industry
+- Layoffs by year and company stage
+- Company rankings within each year using DENSE_RANK()
+- Monthly totals and cumulative layoffs using window functions
 
-## Contact
+[View SQL script](SQL_Projects/Data%20exploratory%20analysis/exploratory_data.sql)
 
-LinkedIn: https://www.linkedin.com/in/rohitdodti/
-Email: rohitdodtiwe@gmail.com 
+The scripts contain learning notes and alternative approaches.
+They have not been verified as a single executable workflow.
 
-"Data tells a story; I help interpret it clearly."
+Dataset source:
+https://www.kaggle.com/datasets/swaptr/layoffs-2022
+
+## Power BI Projects
+
+### Sales Insights
+
+Project folder containing sales-analysis notes and a dashboard screenshot.
+
+[View project](PowerBI_Projects/Sales%20data%20insight)
+
+![Sales dashboard](PowerBI_Projects/Sales%20data%20insight/Sales_project.png)
+
+### Survey Data Dashboard
+
+Project folder containing an Excel workbook and a dashboard screenshot.
+
+[View project](PowerBI_Projects/Survey%20data%20project)
+
+![Survey dashboard](PowerBI_Projects/Survey%20data%20project/survey_country.png)
+
+## Repository Contents
+
+- SQL cleaning and exploratory-analysis scripts
+- Power BI dashboard screenshots
+- Sales-analysis notes
+- Survey project Excel workbook
+
+Power BI `.pbix` files and complete SQL database setup files are not
+currently included.
+
+## Skills Demonstrated
+
+- SQL and MySQL
+- Data cleaning
+- Exploratory data analysis
+- Common table expressions
+- Window functions
+- Power BI
+- Excel
+
+## Portfolio Status
+
+Documentation and project organization are being improved.
+Measured findings and reproducible setup instructions will be added
+after validation.
+
+## Other Work
+
+[Visit my GitHub profile for GenAI projects](https://github.com/rohit-dodti)
